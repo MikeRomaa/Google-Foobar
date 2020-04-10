@@ -20,5 +20,3 @@ def solution(x,y):
             y %= x
     
     return str(generations)
-
-print(solution(17,16))

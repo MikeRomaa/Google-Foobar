@@ -1,10 +1,4 @@
 class Solution {
-    public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
-        System.out.println("Checksum       >> " + solution(17, 40000));
-        System.out.println("Execution time >> " + (System.currentTimeMillis() - startTime) + " milliseconds");
-    }
-
     public static int solution(int start, int length) {
         int checksum = 0;
 

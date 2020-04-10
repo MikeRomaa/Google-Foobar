@@ -39,5 +39,3 @@ def solution(dimensions, your_position, guard_position, distance):
             counter += 1
 
     return counter
-
-print(solution([3,2], [1,1], [2,1], 4))
